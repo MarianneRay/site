@@ -140,21 +140,14 @@ const CONFIG = {
     publications: [
       {
         title: 'Transmission from vaccinated individuals in a large SARS-CoV-2 Delta variant outbreak',
-        conferenceName: '',
         journalName: 'Cell. 2022 Feb 3',
         authors: 'Siddle KJ et al.',
         link: 'https://www.cell.com/cell/fulltext/S0092-8674(21)01490-2',
-        description:
-          'An outbreak of over 1,000 COVID-19 cases in Provincetown, Massachusetts (MA), in July 2021-the first large outbreak mostly in vaccinated individuals in the US-prompted a comprehensive public health response, motivating changes to national masking recommendations and raising questions about infection and transmission among vaccinated individuals. To address these questions, we combined viral genomic and epidemiological data from 467 individuals, including 40% of outbreak-associated cases. The Delta variant accounted for 99% of cases in this dataset; it was introduced from at least 40 sources, but 83% of cases derived from a single source, likely through transmission across multiple settings over a short time rather than a single event. Genomic and epidemiological data supported multiple transmissions of Delta from and between fully vaccinated individuals. However, despite its magnitude, the outbreak had limited onward impact in MA and the US overall, likely due to high vaccination rates and a robust public health response.',
       },
       {
           title: 'Behind the COVID-19 Testing Pipeline',
           conferenceName: 'Women in Data Science Conference',
-          journalName: '',
           authors: 'Marianne Ray',
-          link: '',
-          description:
-            '',
         },
     ],
     themeConfig: {
