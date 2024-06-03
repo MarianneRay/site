@@ -126,13 +126,13 @@ const CONFIG = {
     educations: [
       {
         institution: 'MIT Sloan',
-        degree: 'Certificate in Management & Leadership (Executive Education)',
+        degree: 'Certificate in Management & Leadership (Exec. Ed.)',
         from: '2021',
         to: '2022',
       },
       {
         institution: 'Tufts University',
-        degree: 'BS Geology, Computer Science (minor)',
+        degree: 'BS Geology, minor in Computer Science',
         from: '2014',
         to: '2018',
       },
@@ -141,8 +141,8 @@ const CONFIG = {
       {
         title: 'Transmission from vaccinated individuals in a large SARS-CoV-2 Delta variant outbreak',
         conferenceName: '',
-        journalName: 'Cell',
-        authors: 'Siddle KJ, Krasilnikova LA, Moreno GK, Schaffner SF, Vostok J, Fitzgerald NA, Lemieux JE, Barkas N, Loreth C, Specht I, Tomkins-Tinch CH, Paull JS, Schaeffer B, Taylor BP, Loftness B, Johnson H, Schubert PL, Shephard HM, Doucette M, Fink T, Lang AS, Baez S, Beauchamp J, Hennigan S, Buzby E, Ash S, Brown J, Clancy S, Cofsky S, Gagne L, Hall J, Harrington R, Gionet GL, DeRuff KC, Vodzak ME, Adams GC, Dobbins ST, Slack SD, Reilly SK, Anderson LM, Cipicchio MC, DeFelice MT, Grimsby JL, Anderson SE, Blumenstiel BS, Meldrim JC, Rooke HM, Vicente G, Smith NL, Messer KS, Reagan FL, Mandese ZM, Lee MD, Ray MC, Fisher ME, Ulcena MA, Nolet CM, English SE, Larkin KL, Vernest K, Chaluvadi S, Arvidson D, Melchiono M, Covell T, Harik V, Brock-Fisher T, Dunn M, Kearns A, Hanage WP, Bernard C, Philippakis A, Lennon NJ, Gabriel SB, Gallagher GR, Smole S, Madoff LC, Brown CM, Park DJ, MacInnis BL, Sabeti PC',
+        journalName: 'Cell. 2022 Feb 3',
+        authors: 'Siddle KJ et al.',
         link: 'https://www.cell.com/cell/fulltext/S0092-8674(21)01490-2',
         description:
           'An outbreak of over 1,000 COVID-19 cases in Provincetown, Massachusetts (MA), in July 2021-the first large outbreak mostly in vaccinated individuals in the US-prompted a comprehensive public health response, motivating changes to national masking recommendations and raising questions about infection and transmission among vaccinated individuals. To address these questions, we combined viral genomic and epidemiological data from 467 individuals, including 40% of outbreak-associated cases. The Delta variant accounted for 99% of cases in this dataset; it was introduced from at least 40 sources, but 83% of cases derived from a single source, likely through transmission across multiple settings over a short time rather than a single event. Genomic and epidemiological data supported multiple transmissions of Delta from and between fully vaccinated individuals. However, despite its magnitude, the outbreak had limited onward impact in MA and the US overall, likely due to high vaccination rates and a robust public health response.',
