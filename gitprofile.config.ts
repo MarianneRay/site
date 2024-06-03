@@ -9,7 +9,7 @@ const CONFIG = {
      * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
      * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
      */
-    base: '/profile/',
+    base: '/site/',
     projects: {
       github: {
         display: false, // Display GitHub projects?
@@ -35,17 +35,17 @@ const CONFIG = {
           {
             title: 'Tufts Energy Conference 2018',
             description:
-              'As Director of Content, I co-led a team of 20 to put together content addressing what policy, technology, and financial disruptions must occur to transform the global energy paradigm to meet national and international goals in 2030, 2050, and beyond. The Tufts Energy Conference is one of the largest entirely student-run energy conferences in New England, attracting nearly 400 attendees each year.',
+              'Director of Content\n\nCo-led a team of 20 to put together content addressing what policy, technology, and financial disruptions must occur to meet national and international energy goals in 2030, 2050, and beyond. The Tufts Energy Conference is one of the largest entirely student-run energy conferences in New England, attracting nearly 400 attendees each year.',
             imageUrl:
-              'https://higherlogicdownload.s3.amazonaws.com/DISTRICTENERGY/UploadedImages/2vqS8MHSSMKH5WmPbKMg_tec-2018-full-banner-logo-2.png',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ5sK-eKxRUUKTGggCDIyHoyOaGoW-AMfjzX4wm-L4N2G91rWrQW7TH7v2uZEknka3Gfw&usqp=CAU',
             link: 'https://environment.tufts.edu/tec/files/TEC2018_Program.pdf',
           },
           {
               title: 'Tufts Energy Conference 2017',
               description:
-                'As a member of the content team, I organized a panel examining the advantages and drawbacks of, and decision-making process for, deploying existing renewable technologies versus pursuing the innovation of newer, more cost-effective technologies. The 2017 conference explored the avenues through which innovation can be deployed to expand global energy access, including technology, policy, funding, and partnerships.',
+                'Content Team\n\nOrganized a panel examining the advantages and drawbacks of, and decision-making process for, deploying existing renewable technologies versus pursuing the innovation of newer, more cost-effective technologies.',
               imageUrl:
-                'https://environment.tufts.edu/wp-content/uploads/TEC-e1507661460114.png',
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ5sK-eKxRUUKTGggCDIyHoyOaGoW-AMfjzX4wm-L4N2G91rWrQW7TH7v2uZEknka3Gfw&usqp=CAU',
               link: 'https://tufts.qualtrics.com/ControlPanel/File.php?F=F_a3RtPklqK2NLbqR',
 
           },
