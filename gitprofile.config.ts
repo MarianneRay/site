@@ -33,17 +33,19 @@ const CONFIG = {
         // To hide the `External Projects` section, keep it empty.
         projects: [
           {
-            title: 'Tufts Energy Conference 2018',
+            name: 'Tufts Energy Conference 2018',
+            position: 'Director of Content',
             description:
-              'Director of Content\n\nCo-led a team of 20 to put together content addressing what policy, technology, and financial disruptions must occur to meet national and international energy goals in 2030, 2050, and beyond. The Tufts Energy Conference is one of the largest entirely student-run energy conferences in New England, attracting nearly 400 attendees each year.',
+              'Co-led a team of 20 to put together content addressing what policy, technology, and financial disruptions must occur to meet national and international energy goals in 2030, 2050, and beyond. The Tufts Energy Conference is one of the largest entirely student-run energy conferences in New England, attracting nearly 400 attendees each year.',
             imageUrl:
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ5sK-eKxRUUKTGggCDIyHoyOaGoW-AMfjzX4wm-L4N2G91rWrQW7TH7v2uZEknka3Gfw&usqp=CAU',
             link: 'https://environment.tufts.edu/tec/files/TEC2018_Program.pdf',
           },
           {
-              title: 'Tufts Energy Conference 2017',
+              name: 'Tufts Energy Conference 2017',
+              position: 'Content Team',
               description:
-                'Content Team\n\nOrganized a panel examining the advantages and drawbacks of, and decision-making process for, deploying existing renewable technologies versus pursuing the innovation of newer, more cost-effective technologies.',
+                'Organized a panel examining the advantages and drawbacks of, and decision-making process for, deploying existing renewable technologies versus pursuing the innovation of newer, more cost-effective technologies.',
               imageUrl:
                 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ5sK-eKxRUUKTGggCDIyHoyOaGoW-AMfjzX4wm-L4N2G91rWrQW7TH7v2uZEknka3Gfw&usqp=CAU',
               link: 'https://tufts.qualtrics.com/ControlPanel/File.php?F=F_a3RtPklqK2NLbqR',

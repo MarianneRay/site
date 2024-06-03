@@ -76,7 +76,8 @@ interface ExternalProjects {
    * Project list
    */
   projects?: {
-    title: string;
+    name: string;
+    position: string;
     description?: string;
     imageUrl?: string;
     link: string;
