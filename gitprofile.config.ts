@@ -43,15 +43,15 @@ const CONFIG = {
           {
             name: 'Tufts Energy Conference 2018',
             position: 'Director of Content',
-            description:
-              'Co-led a team of 20 to put together content addressing what policy, technology, and financial disruptions must occur to meet national and international energy goals in 2030, 2050, and beyond. The Tufts Energy Conference is one of the largest entirely student-run energy conferences in New England, attracting nearly 400 attendees each year.',
+            description: 'The Tufts Energy Conference is one of the largest entirely student-run energy conferences in New England, attracting nearly 400 attendees each year.',
+              // 'Co-led a team of 20 to put together content addressing what policy, technology, and financial disruptions must occur to meet national and international energy goals in 2030, 2050, and beyond. The Tufts Energy Conference is one of the largest entirely student-run energy conferences in New England, attracting nearly 400 attendees each year.',
             link: 'https://environment.tufts.edu/tec/files/TEC2018_Program.pdf',
           },
           {
               name: 'Tufts Energy Conference 2017',
               position: 'Content Team',
-              description:
-                'Organized a panel examining the advantages and drawbacks of, and decision-making process for, deploying existing renewable energy technologies versus pursuing the innovation of newer, more cost-effective renewable energy technologies.',
+              description:''
+                // 'Organized a panel examining the advantages and drawbacks of, and decision-making process for, deploying existing renewable energy technologies versus pursuing the innovation of newer, more cost-effective renewable energy technologies.',
               link: 'https://tufts.qualtrics.com/ControlPanel/File.php?F=F_a3RtPklqK2NLbqR',
 
           },
@@ -130,7 +130,7 @@ const CONFIG = {
     ],
     educations: [
       {
-        institution: 'MIT Sloan',
+        institution: 'MIT Sloan School of Management',
         degree: 'Certificate in Management & Leadership (Exec. Ed.)',
         from: '2021',
         to: '2022',
@@ -141,6 +141,13 @@ const CONFIG = {
         from: '2014',
         to: '2018',
       },
+      {
+        institution: 'Mougins School',
+      },
+      {
+        institution: "Lycée International de St. Germain-en-Laye"
+      }
+
     ],
     publications: [
       {
@@ -159,31 +166,31 @@ const CONFIG = {
         {
             name: 'Recognition for Collaborative Impact Award',
             issuer: 'Broad Insitute of MIT & Harvard',
-            subtitle: 'For contributions to COVID genomic surveillance',
+            description: 'For contributions to COVID genomic surveillance.',
             year: 2022
         },
         {
             name: 'Special Recognition Award',
             issuer: 'Broad Insitute of MIT & Harvard',
-            subtitle: 'For contributions to COVID testing',
+            description: 'For contributions to COVID testing.',
             year: 2020
         },
         {
             name: 'Presidential Award for Civic Life (Nominee)',
-            issuer: 'Tufts',
-            subtitle: 'For community service and community leadership achievements realized through the CoHo Committee',
+            issuer: 'Tufts University',
+            description: 'For community service and community leadership achievements realized through the CoHo Committee.',
             year: 2018
         },
         {
-            name: 'Tufts Senior Award Nominee',
-            issuer: 'Tufts',
-            description: 'For academic achievement, campus and community participation, and outstanding leadership realized through the Tufts Energy Conference, CoHo Committee, and Tufts Energy Group',
+            name: 'Tufts Senior Award (Nominee)',
+            issuer: 'Tufts University',
+            description: 'For academic achievement, campus and community participation, and outstanding leadership realized through the Tufts Energy Conference, CoHo Committee, and Tufts Energy Group.',
             year: 2018
         },
         {
-            name: 'Bronze Medal',
-            issuer: 'French National Orienteering Championships (FFCO & UNSS)',
-            description: 'Competitor from 2010 to 2013 in the Junior and Cadet categories',
+            name: 'Bronze Medalist',
+            issuer: "FFCO & UNSS",
+            description: 'Competitor in the French national orienteering championships between 2010 and 2013 in the Junior and Cadet categories.',
             year: 2013
         }
     ],

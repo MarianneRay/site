@@ -87,11 +87,6 @@ const AwardCard = ({
               <div className="px-4">
                 <div className="text-center w-full">
                   <h2 className="font-medium opacity-60 mb-2">{item.name}</h2>
-                  {item.name && (
-                    <p className="text-base-content opacity-50 text-sm">
-                      {item.name}
-                    </p>
-                  )}
                   {item.issuer && (
                     <p className="text-base-content opacity-50 text-sm">
                       {item.issuer}

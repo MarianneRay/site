@@ -410,7 +410,6 @@ interface Config {
    */
   awards?: Array<Award>;
 
-
   /**
    * Resume
    */
