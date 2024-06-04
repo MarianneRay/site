@@ -6,7 +6,7 @@ const AwardCard = ({
   awards,
   loading,
 }: {
-  publications: SanitizedAward[];
+  awards: SanitizedAward[];
   loading: boolean;
 }) => {
   const renderSkeleton = () => {
@@ -130,14 +130,14 @@ const AwardCard = ({
                       skeleton({ widthCls: 'w-40', heightCls: 'h-8' })
                     ) : (
                       <span className="text-base-content opacity-70">
-                        Publications
+                       Awards
                       </span>
                     )}
                   </h5>
                 </div>
                 <div className="col-span-2">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {loading ? renderSkeleton() : renderPublications()}
+                    {loading ? renderSkeleton() : renderAwards()}
                   </div>
                 </div>
               </div>
@@ -149,4 +149,4 @@ const AwardCard = ({
   );
 };
 
-export default PublicationCard;
+export default AwardCard;
