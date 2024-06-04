@@ -16,7 +16,7 @@ const ListItem = ({
       className="absolute w-2 h-2 bg-base-300 rounded-full border border-base-300 mt-1.5"
       style={{ left: '-4.5px' }}
     ></div>
-    (!!time && <div className="my-0.5 text-xs">{time}</div>)
+    <div className="my-0.5 text-xs">{time ? time : ``}</div>
     <h3 className="font-semibold">{institution}</h3>
     <div className="mb-4 font-normal">{degree}</div>
   </li>
