@@ -78,7 +78,6 @@ const AwardCard = ({
       <a
         className="card shadow-lg compact bg-base-100 cursor-pointer"
         key={index}
-        href={item.link}
         target="_blank"
         rel="noreferrer"
       >
