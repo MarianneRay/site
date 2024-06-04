@@ -50,10 +50,9 @@ const CONFIG = {
           {
               name: 'Tufts Energy Conference 2017',
               position: 'Content Team',
-              description:''
+              description:'',
                 // 'Organized a panel examining the advantages and drawbacks of, and decision-making process for, deploying existing renewable energy technologies versus pursuing the innovation of newer, more cost-effective renewable energy technologies.',
-              link: 'https://tufts.qualtrics.com/ControlPanel/File.php?F=F_a3RtPklqK2NLbqR',
-
+              link: 'https://tufts.qualtrics.com/ControlPanel/File.php?F=F_a3RtPklqK2NLbqR'
           },
         ],
       },
