@@ -29,25 +29,29 @@ const CONFIG = {
         },
       },
       external: {
-        header: 'Various Adventures',
+        header: 'Adventures!',
         // To hide the `External Projects` section, keep it empty.
         projects: [
+          {
+            name: 'Tufts Women in Computer Science',
+            position: 'Mentor'
+          },
+          {
+            name: 'Broad Institute Scientific Retreat 2022',
+            position: 'Social Committee Chair'
+          },
           {
             name: 'Tufts Energy Conference 2018',
             position: 'Director of Content',
             description:
               'Co-led a team of 20 to put together content addressing what policy, technology, and financial disruptions must occur to meet national and international energy goals in 2030, 2050, and beyond. The Tufts Energy Conference is one of the largest entirely student-run energy conferences in New England, attracting nearly 400 attendees each year.',
-            imageUrl:
-              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ5sK-eKxRUUKTGggCDIyHoyOaGoW-AMfjzX4wm-L4N2G91rWrQW7TH7v2uZEknka3Gfw&usqp=CAU',
             link: 'https://environment.tufts.edu/tec/files/TEC2018_Program.pdf',
           },
           {
               name: 'Tufts Energy Conference 2017',
               position: 'Content Team',
               description:
-                'Organized a panel examining the advantages and drawbacks of, and decision-making process for, deploying existing renewable technologies versus pursuing the innovation of newer, more cost-effective technologies.',
-              imageUrl:
-                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ5sK-eKxRUUKTGggCDIyHoyOaGoW-AMfjzX4wm-L4N2G91rWrQW7TH7v2uZEknka3Gfw&usqp=CAU',
+                'Organized a panel examining the advantages and drawbacks of, and decision-making process for, deploying existing renewable energy technologies versus pursuing the innovation of newer, more cost-effective renewable energy technologies.',
               link: 'https://tufts.qualtrics.com/ControlPanel/File.php?F=F_a3RtPklqK2NLbqR',
 
           },
@@ -82,8 +86,7 @@ const CONFIG = {
       //email: '',
     },
     resume: {
-      fileUrl:
-        'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      fileUrl: ''
     },
     skills: [
     ],
@@ -152,12 +155,44 @@ const CONFIG = {
           authors: 'Marianne Ray',
         },
     ],
+    awards: [
+        {
+            name: 'Recognition for Collaborative Impact Award',
+            issuer: 'Broad Insitute of MIT & Harvard',
+            subtitle: 'For contributions to COVID genomic surveillance',
+            year: 2022
+        },
+        {
+            name: 'Special Recognition Award',
+            issuer: 'Broad Insitute of MIT & Harvard',
+            subtitle: 'For contributions to COVID testing',
+            year: 2020
+        },
+        {
+            name: 'Presidential Award for Civic Life (Nominee)',
+            issuer: 'Tufts',
+            subtitle: 'For community service and community leadership achievements realized through the CoHo Committee',
+            year: 2018
+        },
+        {
+            name: 'Tufts Senior Award Nominee',
+            issuer: 'Tufts',
+            description: 'For academic achievement, campus and community participation, and outstanding leadership realized through the Tufts Energy Conference, CoHo Committee, and Tufts Energy Group',
+            year: 2018
+        },
+        {
+            name: 'Bronze Medal',
+            issuer: 'French National Orienteering Championships (FFCO & UNSS)',
+            description: 'Competitor from 2010 to 2013 in the Junior and Cadet categories',
+            year: 2013
+        }
+    ],
     themeConfig: {
       defaultTheme: 'lofi',
 
       // Hides the switch in the navbar
       // Useful if you want to support a single color mode
-      disableSwitch: false,
+      disableSwitch: true,
 
       // Should use the prefers-color-scheme media-query,
       // using user system preferences, instead of the hardcoded defaultTheme
@@ -214,13 +249,6 @@ const CONFIG = {
         '--rounded-btn': '3rem',
       },
     },
-
-    // Optional Footer. Supports plain text or HTML.
-    footer: `Made with <a
-        class="text-primary" href="https://github.com/arifszn/gitprofile"
-        target="_blank"
-        rel="noreferrer"
-      >GitProfile</a> and ❤️`,
 
     enablePWA: true,
   };

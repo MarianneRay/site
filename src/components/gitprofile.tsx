@@ -262,6 +262,12 @@ const GitProfile = ({ config }: { config: Config }) => {
                         publications={sanitizedConfig.publications}
                       />
                     )}
+                    {sanitizedConfig.awards.length !== 0 && (
+                      <AwardCard
+                        loading={loading}
+                        awards={sanitizedConfig.awards}
+                      />
+                    )}
                     {sanitizedConfig.projects.external.projects.length !==
                       0 && (
                       <ExternalProjectCard

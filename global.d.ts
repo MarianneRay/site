@@ -406,6 +406,12 @@ interface Config {
   publications?: Array<Publication>;
 
   /**
+   * Awards list
+   */
+  awards?: Array<Award>;
+
+
+  /**
    * Resume
    */
   resume?: Resume;
