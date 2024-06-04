@@ -7,7 +7,7 @@ const ListItem = ({
   degree,
   institution,
 }: {
-  time: React.ReactNode;
+  time?: React.ReactNode;
   degree?: React.ReactNode;
   institution?: React.ReactNode;
 }) => (
@@ -16,9 +16,9 @@ const ListItem = ({
       className="absolute w-2 h-2 bg-base-300 rounded-full border border-base-300 mt-1.5"
       style={{ left: '-4.5px' }}
     ></div>
-    <div className="my-0.5 text-xs">{time}</div>
-    <h3 className="font-semibold">{degree}</h3>
-    <div className="mb-4 font-normal">{institution}</div>
+    (!!time ? <div className="my-0.5 text-xs">{time}</div> : <></>)
+    <div className="font-semibold">{institution}</div>
+    <h3 className="mb-4 font-normal">{degree}</h3>
   </li>
 );
 
@@ -74,7 +74,7 @@ const EducationCard = ({
                 {educations.map((item, index) => (
                   <ListItem
                     key={index}
-                    time={`${item.from} - ${item.to}`}
+                    time={!!item.from && !!item.to ?  `${item.from} - ${item.to}`: ``}
                     degree={item.degree}
                     institution={item.institution}
                   />
